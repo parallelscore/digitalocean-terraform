@@ -1,1 +1,1 @@
-Terraform CICD with github Actions
+Automate Terraform Workflow with github Actions
