@@ -15,9 +15,9 @@ variable "number_servers" {
 }
 
 variable "access_id" {
-  default =  "SYATCTJIWW527CX65LXG"
+  default =  "RYDGWWQFJIEDH6DTEQVY"
 }
 
 variable "secret_key" {
-  default = "7vetvFGVslASHXvHcBirOpCai48HH366NQxu8QPPUM0"
+  default = "X9phlUou2z1Zm45DU1GqaQsdjRwSaWVU47ZzDAcgsJo"
 }
