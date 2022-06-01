@@ -1,15 +1,15 @@
 terraform {
     backend "s3" {
-    skip_requesting_account_id = true
-    skip_credentials_validation = true
-    skip_get_ec2_platforms = true
-    skip_metadata_api_check = true
     access_key = "var.access_id"
     secret_key = "var.secret_key"
     endpoint = "https://fra1.digitaloceanspaces.com"
     region = "us-east-1"
     bucket = "sonalysisspace1" // name of your space
     key = "sonalysistfstate/terraform.tfstate"
+    skip_requesting_account_id  = true
+    skip_credentials_validation = true
+    skip_get_ec2_platforms      = true
+    skip_metadata_api_check     = true
   }
 }  
 provider "digitalocean" {
