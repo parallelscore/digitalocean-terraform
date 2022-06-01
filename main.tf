@@ -1,5 +1,4 @@
 terraform {
-    required_version = ">= 0.11, < 0.12"
     backend "s3" {
     skip_requesting_account_id = true
     skip_credentials_validation = true
