@@ -1,8 +1,8 @@
-do_token     = "dop_v1_***"
-name         = "server"
+/* do_token     = "dop_v1_***"
+name         = "lafiadev1"
 image        = "ubuntu-21-10-x64"
-domain_name  = "wimwauters.com"
-region       = "ams3"
-ssh_key      = "key_digitalocean_2020"
-project_name = "Project Terraform"
-amount       = 2
+domain_name  = "pd-service.parallelscoreprojects.com"
+region       = "lon1"
+ssh_key      = "Elisha 2"
+project_name = "lafia.io"
+amount       = 2 */
