@@ -1,17 +1,15 @@
-variable "do_token" {
-  default = "2c***5"
-}
+variable "do_token" {}
 
 variable "region" {
-  default = "ams3"
+  default = "lon1"
 }
 
 variable "k8s_clustername" {
-  default = "clusterwim"
+  default = "lafiadev"
 }
 
 variable "k8s_version" {
-  default = "1.19.3-do.3"
+  default = "latest"
 }
 
 variable "k8s_poolname" {
